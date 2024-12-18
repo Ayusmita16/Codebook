@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom';
 
 export function Search({ setSearch }) {

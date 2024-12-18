@@ -25,7 +25,7 @@ export const ProductCard = ({ product }) => {
 
             <Link to={`/products/${id}`} className="relative">
                 {best_seller && (<span className="absolute top-4 left-2 px-2 bg-orange-500 bg-opacity-90 text-white rounded">Best Seller</span>)}
-                <img className=" rounded-t-lg w-full h-64" src={poster} alt="product image" />
+                <img className=" rounded-t-lg w-full h-64" src={poster} alt="product" />
             </Link>
 
             <div className="p-5">

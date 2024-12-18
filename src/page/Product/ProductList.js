@@ -25,7 +25,7 @@ export function ProductList() {
             }
         }
         fetchFeaturedPdts();
-    }, [])
+    }, [])//eslint-disable-line
 
     return (
         <main>

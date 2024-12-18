@@ -12,7 +12,7 @@ export async function getUser() {
         headers: { "Content-Type": "application/json", Authorization: `Bearer ${browserSession.token}` }
     });
     if (!response.ok)
-        throw { message: response.statusText, status: response.status }
+        throw { message: response.statusText, status: response.status }//eslint-disable-line
     const user = await response.json();
     return user;
 }
@@ -35,7 +35,7 @@ export async function createOrder(cartList, total, user) {
         body: JSON.stringify(order)
     })
     if (!response.ok)
-        throw { message: response.statusText, status: response.status }
+        throw { message: response.statusText, status: response.status }//eslint-disable-line
     const data = await response.json();
     return data;
 }
@@ -47,7 +47,7 @@ export async function getOrders() {
         headers: { "Content-Type": "application/json", Authorization: `Bearer ${browserSession.token}` }
     });
     if (!response.ok)
-        throw { message: response.statusText, status: response.status }
+        throw { message: response.statusText, status: response.status }//eslint-disable-line
     const orders = await response.json();
     return orders;
 }

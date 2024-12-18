@@ -13,7 +13,7 @@ export function Testimonials(props) {
                     <p className="my-4">If you care for your time, I hands down would go with this."</p>
                 </blockquote>
                 <figcaption className="flex items-center justify-center ">
-                    <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
+                    <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile" />
                     <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                         <div>Bonnie Green</div>
                         <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
@@ -26,7 +26,7 @@ export function Testimonials(props) {
                     <p className="my-4">Designing with Figma components that can be easily translated to the utility classNamees of Tailwind CSS is a huge timesaver!"</p>
                 </blockquote>
                 <figcaption className="flex items-center justify-center ">
-                    <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="profile picture" />
+                    <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="profile" />
                     <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                         <div>Roberta Casas</div>
                         <div className="text-sm text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
@@ -39,7 +39,7 @@ export function Testimonials(props) {
                     <p className="my-4">Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application."</p>
                 </blockquote>
                 <figcaption className="flex items-center justify-center ">
-                    <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture" />
+                    <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile" />
                     <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                         <div>Jese Leos</div>
                         <div className="text-sm text-gray-500 dark:text-gray-400">Software Engineer at Facebook</div>
@@ -52,7 +52,7 @@ export function Testimonials(props) {
                     <p className="my-4">You have many examples that can be used to create a fast prototype for your team."</p>
                 </blockquote>
                 <figcaption className="flex items-center justify-center ">
-                    <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture" />
+                    <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile" />
                     <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                         <div>Joseph McFall</div>
                         <div className="text-sm text-gray-500 dark:text-gray-400">CTO at Google</div>
